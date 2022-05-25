@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main"
+    android:padding="20dp">
+    <TextView android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pushers Voice Changer"
+        android:textSize="29dp"
+        android:textAlignment="center" />
+    <TextView android:id="@+id/EnglishText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:lineHeight="35dp"
+        android:text="Is a free, open source, cross platform application for applying some effects like pitch shifting, time stretching, etc, on your recorded voice. \n hope you enjoy it ;) "
+        android:textSize="20dp" android:paddingVertical="20dp"
+        android:textAlignment="center" />
+    <TextView android:id="@+id/PersianText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:lineHeight="35dp"
+        android:text=" یک برنامه ی رایگان ، متن باز و چند سکویی به منظور ارائه خدماتی برای اعمال تغییرات بر روی صدا می باشد ، مانند تغییر گام صدا ، کشش زمان و غیره . \n امیدواریم از این برنامه لذت ببرید . "
+        android:textSize="20dp" android:paddingVertical="20dp"
+        android:textAlignment="center" />
+<TextView android:id="@+id/CreatorID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:lineHeight="20dp"
+        android:text="Telegram : @M_AminK \n\n Instagram : @mamin_dev"
+        android:textSize="20dp" 
+        android:textAlignment="center" />
+</GridLayout>
+
+
+
+
+
+
+
+
+

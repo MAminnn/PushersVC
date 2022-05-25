@@ -1,0 +1,58 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+    <!--<item name="colorPrimary">@color/colorSecondary</item>-->
+    <!--<item name="colorAccent">@color/colorAccent</item>-->
+  </style>
+
+  <style name="AppTheme.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+
+  <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+  <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+
+  <style name="BtnStyleDark">
+    <item name="backgroundTint">@color/mtrl_btn_transparent_bg_color</item>
+    <item name="android:textColor">@color/colorPrimary</item>
+    <item name="android:outlineSpotShadowColor">@color/colorPrimary</item>
+  </style>
+
+  <style name="SeekBarStyleDark">
+    <item name="android:progressBackgroundTint">@color/colorSecondary</item>
+    <item name="android:thumbTint">@color/colorPrimary</item>
+    <item name="android:progressTint">@color/colorPrimary</item>
+  </style>
+
+  <style name="CheckBoxStyleDark">
+    <item name="android:buttonTint">@color/colorPrimary</item>
+    <item name="android:textColor">@color/colorPrimary</item>
+  </style>
+  
+  <style name="BtnStyleLight">
+    <item name="backgroundTint">@color/mtrl_btn_transparent_bg_color</item>
+    <item name="android:textColor">@color/colorPrimary</item>
+    <item name="android:outlineSpotShadowColor">@color/colorPrimary</item>
+  </style>
+
+  <style name="SeekBarStyleLight">
+    <item name="android:progressBackgroundTint">@color/colorSecondary</item>
+    <item name="android:thumbTint">@color/colorPrimary</item>
+    <item name="android:progressTint">@color/colorPrimary</item>
+  </style>
+
+  <style name="CheckBoxStyleLight">
+    <item name="android:buttonTint">@color/colorPrimary</item>
+    <item name="android:textColor">@color/colorPrimary</item>
+  </style>
+
+<style name="toolbarStyleLight">
+  
+</style>
+</resources>
